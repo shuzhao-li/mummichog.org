@@ -1,0 +1,153 @@
+
+<!--[if HTML5]><![endif]-->
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="ie ie6 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ie-lte9 ie-lte8 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 9]><html class="ie9 ie-lte9 no-js" lang="en-us"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-us"> <!--<![endif]-->
+<head>
+<title>Mummichog</title>
+  <!--[if !HTML5]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+  <!-- Always force latest IE rendering engine
+       (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+
+  <meta charset="utf-8" />
+
+  <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+
+  <!-- Speaking of Google, don't forget to set your site up:
+       http://google.com/webmasters -->
+  <meta name="google-site-verification" content="" />
+
+  <!--  Mobile Viewport Fix
+        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+        device-width: Occupy full width of the screen in its current orientation
+        initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+        user-scalable = yes allows the user to zoom in -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="keywords" content="metabolomics, systems biology, personalized medicine, exposome" />
+<meta name="author" content="Shuzhao Li" />
+
+<link href="static/bootstrap.min.css"
+      rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="container">
+    <!-- Masthead ================================================== -->
+    <header class="mastheader row" id="header">
+
+        <div class="span12">
+
+        <h1>Mummichog <small>pathway and network analysis for metabolomics</small></h1>
+
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="software.html">Software</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="notebooks.html">Notebooks</a></li>
+          <li><a href="old_v1.html">Version 1.0.9</a></li>
+            <li><a href="http://mummichog-2.appspot.com/" target="_blank">mummichog-server</a></li>
+        </ul>
+
+
+        </div>
+
+    </header>
+
+      <div class="">
+          <p>  </p>
+        <p>Mummichog is a free Python program for analyzing data from high throughput, untargeted metabolomics.
+It leverages the organization of metabolic networks to predict functional activity directly from feature tables, bypassing metabolite identification. Thus, high-quality hypotheses can be quickly generated from a LC-MS data table.</p>
+      </div>
+
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-info" >
+          <div class="panel-heading"><a href="software.html">Download and use mummichog. Now via standard Python package index.</a></div>
+      <div class="panel-body">
+          <p>OS independent install (version 1):
+              <code>pip install mummichog1</code></p>
+          <p>Or mummichog 2 (beta test):
+              <code>pip install mummichog</code></p>
+          <p>Run it in command line:
+              <code>mummichog -f myData -o myResult</code></p>
+          <p>More to <a href="software.html">click "Software"</a>.
+              </p>
+          </div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-info" >
+          <div class="panel-heading"><a href="publications.html">Example publications that were supported by using mummichog</a></div>
+      <div class="panel-body">
+          <p>Li et al. (2017) Metabolic Phenotypes of Response to Vaccination in Humans. <a href="http://www.cell.com/cell/abstract/S0092-8674(17)30477-4" target="_blank"><em>Cell</em> 169(5): p862-877.</a></p>
+          <p>Huan, Tao, et al. "Systems biology guided by XCMS Online metabolomics." <a href="https://www.nature.com/nmeth/journal/v14/n5/full/nmeth.4260.html" target="_blank"><em>Nature methods</em> 14.5 (2017): 461.</a></p>
+          <p>Xu et al. "Autophagy is essential for effector CD8+ T cell survival and memory formation." <a href="https://www.nature.com/ni/journal/v15/n12/full/ni.3025.html" target="_blank"><em>Nature immunology</em> 15.12 (2014): 1152-1161.</a></p>
+          <p>More to <a href="publications.html">click "Publications"</a>.</p>
+          </div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-info" >
+          <div class="panel-heading"><a href="notebooks.html">Jupyter notebooks for data analysis in metabolomics and systems biology</a></div>
+      <div class="panel-body">Jupyter notebooks are to data people like lab notebooks to bench scientists. They keep code and result in the same web browser. It's increasinlgy popular for data analysis and collaboration. We continue posting notebooks as tutorials and for record keeping.
+
+         <p>More to <a href="notebooks.html">click "Notebooks"</a>.</p>
+
+          </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <section id="main" class="main row">
+
+<h2>News</h2>
+        <ul>
+            <li>We are hiring postdoc/staff! Please direct inqueries to Dr. Shuzhao Li.</li>
+            <li>Web version is now testing at <a href="http://mummichog-2.appspot.com/" target="_blank">here</a>. </li>
+            <li>Mummichog 2 is now on <a href="https://github.com/shuzhao-li/mummichog" target="_blank"> GitHub</a>. </li>
+            <li>Mummichog 1 with a web interface is now available on <a href="http://www.metaboanalyst.ca/faces/upload/PeakUploadView.xhtml" target="_blank"> MetaboAnalyst 4</a>. </li>
+            <li>A common error, "AttributeError: 'NodeView' object has no attribute 'sort’", is caused by Networkx 2.x, which is not backward compatible. This can be fixed by installing Networkx 1.x via pip in your terminal, "sudo pip install networkx==1.10".</li>
+            <li>Mummichog 2 test version is available at <a href="https://pypi.python.org/pypi/mummichog" target="_blank">Pypi</a>. </li>
+            <li>Mummichog version 1.0.10 is available at <a href="https://pypi.python.org/pypi/mummichog1/" target="_blank">Pypi</a>. </li>
+            <li>Mummichog helped decipher metabolic phenotypes in human vaccination - Li et al. (2017) at <a href="http://www.cell.com/cell/abstract/S0092-8674(17)30477-4" target="_blank"><em>Cell</em> 169(5): p862-877.</a>
+            Also see commentary <a href="http://www.cell.com/cell-systems/fulltext/S2405-4712(17)30238-7" target="_blank">"Orthogonal Data Integration to Define Immunometabolic-Phenotypes" at <em>Cell Systems</em></a>.
+            </li>
+            <li>Emory University Sys/Bio/Info Group runs a monthly meeting on Systems Biology and Bioinformatics. These are casual seminars and discussions, on every first Wednesday of the month, 12 pm, Whitehead Biomedical Research Building, Rm 200. Email Dr. Shuzhao Li to join the mailing list.</li>
+
+        </ul>
+
+
+    </section><!--/main-->
+
+    <!-- Footer ================================================== -->
+    <div class="row">
+        <footer class="footer span12" id="footer">
+            <div class="footer-content">
+                 <!-- this is default footer -->
+                <div class="copyright pull-left">Copyright &#169; 2016-2018</div>
+
+            </div>
+        </footer>
+    </div>
+
+  </div>
+</body>
+</html>

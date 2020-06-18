@@ -1,0 +1,126 @@
+
+<!--[if HTML5]><![endif]-->
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="ie ie6 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ie-lte9 ie-lte8 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 9]><html class="ie9 ie-lte9 no-js" lang="en-us"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-us"> <!--<![endif]-->
+<head>
+<title>Mummichog</title>
+  <!--[if !HTML5]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+  <!-- Always force latest IE rendering engine
+       (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+
+  <meta charset="utf-8" />
+
+  <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+
+  <!-- Speaking of Google, don't forget to set your site up:
+       http://google.com/webmasters -->
+  <meta name="google-site-verification" content="" />
+
+  <!--  Mobile Viewport Fix
+        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+        device-width: Occupy full width of the screen in its current orientation
+        initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+        user-scalable = yes allows the user to zoom in -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="keywords" content="metabolomics, systems biology, personalized medicine, exposome" />
+<meta name="author" content="Shuzhao Li" />
+
+<link href="static/bootstrap.min.css"
+      rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="container">
+    <!-- Masthead ================================================== -->
+    <header class="mastheader row" id="header">
+
+        <div class="span12">
+
+        <h1>Mummichog <small>pathway and network analysis for metabolomics</small></h1>
+
+        <ul class="nav nav-tabs">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="software.html">Software</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li class="active"><a href="notebooks.html">Notebooks</a></li>
+          <li><a href="old_v1.html">Version 1.0.9</a></li>
+          <li><a href="http://mummichog-2.appspot.com/" target="_blank">mummichog-server</a></li>
+        </ul>
+
+
+        </div>
+
+    </header>
+
+      <div class="">
+          <p>  </p>
+        <p><kbd>Jupyter notebook</kbd> is a useful tool for data analysis.
+            By keeping code and result in a web browser, it keeps research record, facilitates collaboration, and makes good tutorials. Here is a tutorial on <kbd>Jupyter notebook</kbd>:
+            <a href="https://jupyter.readthedocs.io/en/latest/content-quickstart.html" target="_blank">https://jupyter.readthedocs.io/en/latest/content-quickstart.html</a>, and <a href="https://youtu.be/HW29067qVWk" target="_blank">a Youtube tutorial</a>.
+            The <kbd>Jupyter notebook</kbd> can run kernels on different computer languages.
+          </p>      </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Continued release of notebooks can be found on GitHub
+				<a href="https://github.com/shuzhao-li/Notebooks-computational-metabolomics" target="_blank">shuzhao-li/Notebooks-computational-metabolomics</a>.
+        </div>
+      <div class="panel-body">
+          <p>Click on any of the following link to open the notebook in a new window.</p>
+
+
+					<p><a href="notebooks/Averaging_technical_replicates.html" target="_blank">Averaging technical replicates</a></p>
+
+          <p><a href="notebooks/ms_processing.html" target="_blank">Preprocessing LC-MS data, taking a raw feature table through QC</a></p>
+
+					<p><a href="notebooks/Statistics_group_comparison.html" target="_blank">Statistical analyses of metabolite features (group comparison)</a></p>
+
+          <p><a href="notebooks/HCL_clustering_considering_retention_time.html" target="_blank">Clustering of metabolite peaks from LC-MS, using intensity and retention time</a></p>
+
+          <p><a href="notebooks/Bubble_plot_pathways.html" target="_blank">Bubble plot, using scatter plot panels to visualize result from pathway analysis</a></p>
+
+          <p><a href="notebooks/MetabolicModel_port_mfn_ver2mummichog.html" target="_blank">How to generate a metabolic model for <kbd>mummichog 2</kbd></a></p>
+
+
+          <p><a href="notebooks/mwas.html" target="_blank">Manhattan plot for metabolome wide association (MWAS)</a></p>
+
+          <p><a href="notebooks/heatmap.html" target="_blank">Perform hierachical clustering and make a heat map using pandas and seaborn</a></p>
+
+
+             <p>...</p>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+    <!-- Footer ================================================== -->
+    <div class="row">
+        <footer class="footer span12" id="footer">
+            <div class="footer-content">
+                 <!-- this is default footer -->
+                <div class="copyright pull-left">Copyright &#169; 2017-2018</div>
+
+            </div>
+        </footer>
+    </div>
+
+  </div>
+</body>
+</html>
